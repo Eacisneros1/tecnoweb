@@ -1,0 +1,174 @@
+/* Importar Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el encabezado y el pie de página */
+header, footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+header {
+    background: #007aff;
+    color: white;
+}
+
+footer {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el contenedor principal */
+main {
+    padding: 2rem;
+}
+
+/* Estilo para la navegación */
+nav {
+    background: #f4f4f4;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease;
+}
+
+nav ul li a:hover {
+    font-size: 1.5rem;
+    color: #007aff;
+}
+
+/* Estilo para los artículos */
+article {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Estilo para las imágenes */
+.responsive-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para los enlaces de salto */
+.skip-link {
+    display: none; /* Ocultos por defecto */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f9;
+    color: #333;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 5%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 5%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    height: auto;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 2% 4%;
+    background: #007aff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background: #005bb5;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    header, footer, main, nav ul li a, button[typePara asegurar que tu formulario se vea bien en todas las pantallas y ocupe un espacio discreto, puedes utilizar porcentajes y ajustar el diseño con media queries para dispositivos móviles. Aquí tienes el código actualizado de tu HTML y CSS:### HTML```html<!DOCTYPE html><html lang="es"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Impacto de las Tecnologías Web en la Sociedad y los Negocios</title>    <link rel="stylesheet" href="estilo.css">    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"></head><body>    <header id="header">        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>    </header>    <nav>        <ul>            <li><a href="index.html">Inicio</a></li>            <li><a href="impactoenlasociedad.html">Impacto en la Sociedad</a></li>            <li><a href="impactoenlosnegocios.html">Impacto en los Negocios</a></li>            <li><a href="contactos.html">Contacto</a></li>        </ul>    </nav>    <main id="mainContent">        <section>            <article>                <h2 id="bienvenido">BIENVENIDO</h2>                <p>Explora cómo las tecnologías web están transformando la sociedad y los negocios.</p>                <img src="imagen/portada.jpg" alt="Impacto de la Web" class="responsive-img">            </article>            <article id="tecnologias">                <img src="imagen/tec.jpg" alt="Impacto" class="responsive-img">                <h2>Tecnologías</h2>                <p>Una de las características más destacadas de las tecnologías web es su accesibilidad global. A través de la infraestructura de Internet, las personas de todo el mundo pueden acceder a una cantidad sin precedentes de información y recursos, desde contenido educativo y cultural hasta servicios financieros y de entretenimiento. Esto ha nivelado el campo de juego en muchos aspectos, permitiendo que incluso las voces más marginales tengan la oportunidad de ser escuchadas y participar en la conversación global.</p>                <p>Otro aspecto clave es la conectividad continua que las tecnologías web proporcionan. Con la proliferación de dispositivos móviles y la mejora de las redes inalámbricas, estamos más interconectados que nunca. Esto ha dado lugar a nuevas formas de comunicación y colaboración, desde las redes sociales y las plataformas de mensajería instantánea hasta herramientas de trabajo remoto y teleconferencias. La capacidad de estar conectados en todo momento ha transformado la forma en que nos comunicamos, trabajamos y nos relacionamos con los demás.</p>                <p>Además, las tecnologías web han impulsado la innovación en los negocios y la economía en general. El comercio electrónico ha experimentado un crecimiento explosivo, permitiendo a las empresas llegar a clientes en todo el mundo y ofrecer productos y servicios de manera más eficiente. Las empresas emergentes han encontrado en Internet la innovación, creando nuevos modelos de negocio y cambiando la forma en que interactuamos con productos y servicios.</p>                <h2 id="impacto">Impacto</h2>                <p>En este momento, asistimos a un verdadero desarrollo de la información sin comprender plenamente la tecnología que nos rodea. Los nuevos cambios significan que necesitamos actualizar nuestro conocimiento sobre las nuevas tecnologías. Quienes ya han completado la fase educativa tienen la obligación de saber más y hacer un mayor uso de las nuevas tecnologías.</p>                <p>Averigua de las <b><a href="https://www.proun.es/blog/tecnologias-web-actuales/">tecnologías web actuales</a></b></p>                <img src="imagen/celular.gif" alt="celular" class="responsive-img">            </article>            <article>                <h2>NOTICIAS RECIENTES</h2>                <ol>                    <li><a href="https://www.eleconomista.es/tecnologia/noticias/d8366/07/24/Caida-de-Microsoft-en-directo-ultima-hora-de-las-empresas-afectadas-en-Espana-y-en-el-mundo.html">Última hora de la caída de Microsoft</a></li>                    <li><a href="
